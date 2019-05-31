@@ -6,7 +6,7 @@ namespace AplicacionAuto
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");ghfhh
+            Console.WriteLine("Hello World!");
         }
     }
 }
