@@ -6,20 +6,10 @@ namespace AplicacionAuto
     {
         static void Main(string[] args)
         {
-            int _ruedas=4;
-    
-            Muestra();
-            Pausa();
-        }
-        public static void Muestra()
-        {
-            Console.WriteLine("Hola el auto tiene");
-        }
-
-        public static void Pausa()
-        {
-            Console.WriteLine("Presione cualquier tecla para continuar ...");
+            int _rueda = 4;
+            Console.WriteLine("Hola soy un auto y tengo" + _rueda);
             Console.ReadKey();
         }
+
     }
 }
